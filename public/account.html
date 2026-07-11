@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Account | Shreya Bakes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-container">
+        <span>⏰ Freshly Baked Daily</span>
+        <span>📍 Dubai & UAE Delivery</span>
+        <span><a href="wishlist.html">♡ Wishlist</a></span>
+        <span><a href="cart.html">🛒 Your Cart</a></span>
+        <span><a href="#" onclick="goToAccount(); return false;">👤 Account</a></span>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="account-page">
+    <div class="account-header">
+        <h1>My Account</h1>
+        <p>Manage your profile and view your Shreya Bakes orders.</p>
+    </div>
+
+    <div class="account-grid">
+        <div class="account-card">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> <span id="name"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Address:</strong> <span id="address"></span></p>
+            <p><strong>City:</strong> <span id="city"></span></p>
+
+            <br>
+            <button onclick="editProfile()">Edit Details</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+
+        <div class="account-card">
+            <h2>Loyalty Points</h2>
+            <p id="points">0 Points</p>
+            <p>Use your available points for discounts during checkout.</p>
+        </div>
+
+        <div class="account-card account-orders-card">
+            <h2>Previous Orders</h2>
+            <ul id="orders"></ul>
+        </div>
+    </div>
+</section>
+
+<div id="editModal" class="modal hidden">
+    <div class="modal-box">
+        <h2>Edit Profile</h2>
+        <input id="editName" placeholder="Full Name (e.g. Shreya Issani)">
+        <input id="editEmail" type="email" placeholder="Email (e.g. name@gmail.com)">
+        <p id="editEmailError" class="field-error"></p>
+        <input id="editPhone" placeholder="Phone Number (e.g. 05XXXXXXXX)" maxlength="10">
+        <p id="editPhoneError" class="field-error"></p>
+        <textarea id="editAddress" placeholder="Delivery Address (e.g. Building, Street, Area)" rows="3"></textarea>
+        <select id="editCity">
+            <option value="">Select City</option>
+            <option>Abu Dhabi</option>
+            <option>Dubai</option>
+            <option>Sharjah</option>
+            <option>Ras Al Khaimah</option>
+            <option>Fujairah</option>
+            <option>Umm Al Quwain</option>
+        </select>
+
+        <div class="modal-buttons">
+            <button onclick="saveProfile()">Save</button>
+            <button onclick="closeModal()">Cancel</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div>
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle; margin-bottom:10px;">
+            <p>Handcrafted desserts made fresh in Dubai with premium ingredients.</p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="trackOrder.html">Track Order</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p><a href="https://www.instagram.com/shreyabakes_x/" target="_blank">Instagram</a></p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/auth.js"></script>
+<script src="js/accounts.js"></script>
+
+</body>
+</html>

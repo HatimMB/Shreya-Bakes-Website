@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home | Shreya Bakes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-container">
+
+        <span>⏰ Freshly Baked Daily</span>
+        <span>📍 Dubai & UAE Delivery</span>
+
+        <span><a href="wishlist.html">♡ Wishlist</a></span>
+        <span><a href="cart.html">🛒 Your Cart</a></span>
+        <span><a href="#" onclick="goToAccount(); return false;">👤 Account</a></span>
+
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<section class="hero" style="background:url('images/bakerybg1.jpg') center/cover no-repeat;">
+
+    <div id="toast" class="toast"></div>
+
+    <div class="hero-content">
+
+        <h1>Freshly Baked Happiness Delivered To Your Doorstep</h1>
+
+        <p>
+            Welcome to Shreya Bake's, where every cookie and brownie is
+            handcrafted with premium ingredients, rich chocolate,
+            and lots of love.
+        </p>
+
+        <div style="margin-top:20px;">
+            <button onclick="window.location.href='menu.html'" class="btn-primary">Explore Menu</button>
+        </div>
+        
+    </div>
+
+</section>
+
+<section style="background:#fff; border-bottom:1px solid #eee;">
+
+    <div class="container" style="display:flex; justify-content:space-between; padding:30px 0; flex-wrap:wrap; gap:20px; text-align:center;">
+
+        <div>
+            <strong>✔ 100% Fresh</strong><br>
+            <span style="color:gray; font-size:13px;">Baked daily</span>
+        </div>
+
+        <div>
+            <strong>✔ Premium Ingredients</strong><br>
+            <span style="color:gray; font-size:13px;">Real chocolate & butter</span>
+        </div>
+
+        <div>
+            <strong>✔ Eggless Options</strong><br>
+            <span style="color:gray; font-size:13px;">Available</span>
+        </div>
+
+        <div>
+            <strong>✔ Custom Orders</strong><br>
+            <span style="color:gray; font-size:13px;">Events & gifting</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section home-best-sellers" style="background:#fdf5f7; padding:90px 0;">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Best Sellers</h2>
+            <p>Customer favourites baked fresh daily</p>
+        </div>
+
+        <div class="products" id="featuredProducts"></div>
+
+        <div style="text-align:center; margin-top:50px;">
+
+            <h3 class="more-flavours-title">
+                Looking for more flavours?
+            </h3>
+
+            <p class="more-flavours-text">
+                Browse our complete collection of cookies, brownies, cakes and gift boxes.
+            </p>
+
+            <button onclick="window.location.href='menu.html'" class="btn-primary">
+                Explore Full Menu
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section style="background:#fafafa; padding:90px 0;">
+
+    <div class="container" style="display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:center;">
+
+        <div>
+            <h2 style="font-size:34px; margin-bottom:15px;">
+                Made in small batches, with real care
+            </h2>
+
+            <p style="color:#666; line-height:1.7;">
+                We don’t mass produce. Every cookie and brownie is baked in small batches
+                to keep the texture soft, rich and fresh. No preservatives. No shortcuts.
+            </p>
+
+            <p style="color:#666; line-height:1.7; margin-top:10px;">
+                From late-night cravings to birthday boxes, we bake everything like it’s
+                for someone special, because it is.
+            </p>
+        </div>
+
+        <div>
+            <img src="images/hb_brownie.jpeg"
+                 style="width:100%; border-radius:16px; box-shadow:var(--shadow-soft);">
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stats-grid">
+
+        <div class="stat">
+            <h3 id="ordersCount">0</h3>
+            <p>Orders Completed</p>
+        </div>
+
+        <div class="stat">
+            <h3 id="cakesCount">0</h3>
+            <p>Custom Cakes</p>
+        </div>
+
+        <div class="stat">
+            <h3 id="ratingCount">0</h3>
+            <p>Average Rating</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section style="padding:100px 0; text-align:center;">
+
+    <div class="container">
+
+        <h2 style="font-size:34px; margin-bottom:10px;">
+            Ready to taste something fresh?
+        </h2>
+
+        <p style="color:#666; margin-bottom:25px;">
+            Order now and get warm desserts delivered to your door.
+        </p>
+
+        <a href="menu.html" class="btn-primary">
+            Order Now
+        </a>
+
+    </div>
+
+</section>
+
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div>
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle; margin-bottom:10px;">
+
+            <p>Handcrafted desserts made fresh in Dubai with premium ingredients.</p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="trackOrder.html">Track Order</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://www.instagram.com/shreyabakes_x/" target="_blank">Instagram</a><br>
+            </p>
+        </div>
+
+    </div>
+
+</footer>
+
+<a href="cart.html" class="floating-cart" id="floatingCart">
+    🛒
+    <span id="cartCount">0</span>
+</a>
+
+<script src="js/auth.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

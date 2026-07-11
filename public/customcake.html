@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Custom Cake | Shreya Bakes</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+
+</head>
+
+<body>
+
+<div id="toast" class="toast"></div>
+
+
+
+<div class="top-bar">
+    <div class="top-bar-container">
+
+        <span>⏰ Freshly Baked Daily</span>
+        <span>📍 Dubai & UAE Delivery</span>
+
+        <span><a href="wishlist.html">♡ Wishlist</a></span>
+        <span><a href="cart.html">🛒 Your Cart</a></span>
+        <span><a href="#" onclick="goToAccount(); return false;">👤 Account</a></span>
+
+    </div>
+</div>
+
+
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png"
+                 alt="logo"
+                 style="height:60px; vertical-align:middle;">
+
+            <span style="margin-left:8px;">
+                <a class="logo"
+                   href="home.html"
+                   style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<section class="hero custom-cake-hero" style="background:linear-gradient(rgba(59,42,37,0.58), rgba(59,42,37,0.58)), url('images/manwithquestion.jpg') center/cover no-repeat;">
+    <div class="container">
+
+        <h1 class="hero-content">Custom Cakes, Made Your Way</h1>
+
+        <p class="hero-content">
+            Pick the flavours, toppings, and message you love. We will bake your custom cake fresh for your celebration.
+        </p>
+
+    </div>
+</section>
+
+
+<section class="custom-cake-page">
+
+    <div class="cake-builder">
+
+        <div class="builder-header">
+
+    <h2>Build Your Custom Cake</h2>
+
+    <div class="price-box">
+
+        <span>Your Total</span>
+
+        <h3>AED <span id="price">0</span></h3>
+
+    </div>
+
+</div>
+
+        
+
+        <div class="slide active" id="slide1">
+
+            <h2>1. Choose Cake Base</h2>
+
+            <div class="options">
+
+                <div class="card">
+                    <img src="images/basechococake.jpg">
+                    <h3>Chocolate Cake</h3>
+                    <p>AED 40</p>
+
+                    <button class="btn-primary"
+                            onclick="selectBase('Chocolate Cake',40)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="images/basevanillacake.jpg">
+                    <h3>Vanilla Cake</h3>
+                    <p>AED 35</p>
+
+                    <button class="btn-primary"
+                            onclick="selectBase('Vanilla Cake',35)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="images/baseredcake.jpg">
+                    <h3>Red Velvet Cake</h3>
+                    <p>AED 45</p>
+
+                    <button class="btn-primary"
+                            onclick="selectBase('Red Velvet Cake',45)">
+                        Select
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="slide" id="slide2">
+
+            <h2>2. Choose Frosting</h2>
+
+            <div class="options">
+
+                <div class="card">
+                    <h3>Vanilla Frosting</h3>
+                    <p>AED 10</p>
+
+                    <button class="btn-primary"
+                            onclick="selectFrosting('Vanilla Frosting',10)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <h3>Chocolate Frosting</h3>
+                    <p>AED 12</p>
+
+                    <button class="btn-primary"
+                            onclick="selectFrosting('Chocolate Frosting',12)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <h3>Cream Cheese</h3>
+                    <p>AED 15</p>
+
+                    <button class="btn-primary"
+                            onclick="selectFrosting('Cream Cheese',15)">
+                        Select
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="slide" id="slide3">
+
+            <h2>3. Choose Topping</h2>
+
+            <div class="options">
+
+                <div class="card">
+                    <img src="images/sprinkles.jpg">
+                    <h3>Sprinkles</h3>
+                    <p>AED 5</p>
+
+                    <button class="btn-primary"
+                            onclick="selectTopping('Sprinkles',5)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="images/crushedoreo.jpg">
+                    <h3>Oreos</h3>
+                    <p>AED 8</p>
+
+                    <button class="btn-primary"
+                            onclick="selectTopping('Oreos',8)">
+                        Select
+                    </button>
+                </div>
+
+                <div class="card">
+                    <img src="images/strawberries.jpg">
+                    <h3>Strawberries</h3>
+                    <p>AED 12</p>
+
+                    <button class="btn-primary"
+                            onclick="selectTopping('Strawberries',12)">
+                        Select
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="slide" id="slide4">
+
+            <h2>4. Add Cake Message</h2>
+
+            <p>Add a short message on the cake (+AED 10). Leave it blank if you do not want text.</p>
+
+            <input
+                type="text"
+                id="cakeText"
+                class="cake-input"
+                placeholder="Example: Happy Birthday Shreya">
+
+            <br><br>
+
+            <button class="btn-primary"
+                    onclick="finishText()">
+                View Summary
+            </button>
+
+        </div>
+
+        
+
+        <div class="slide" id="slide5">
+
+            <h2>Custom Cake Summary</h2>
+
+            <div class="summary">
+
+                <p>
+                    <strong>Base:</strong>
+                    <span id="sumBase"></span>
+                </p>
+
+                <p>
+                    <strong>Frosting:</strong>
+                    <span id="sumFrosting"></span>
+                </p>
+
+                <p>
+                    <strong>Topping:</strong>
+                    <span id="sumTopping"></span>
+                </p>
+
+                <p>
+                    <strong>Text:</strong>
+                    <span id="sumText"></span>
+                </p>
+
+                <h3>
+                    Total: AED
+                    <span id="sumPrice"></span>
+                </h3>
+
+                <button class="btn-primary" onclick="addCustomCakeToCart()">
+                    Add Custom Cake to Cart
+                </button>
+            
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+            <img src="images/sb_logo.png"
+                 alt="logo"
+                 style="height:60px; vertical-align:middle; margin-bottom:10px;">
+
+            <p>
+                Handcrafted desserts made fresh in Dubai with premium ingredients.
+            </p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="trackOrder.html">Track Order</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://www.instagram.com/shreyabakes_x/" target="_blank">
+                    Instagram
+                </a>
+            </p>
+        </div>
+
+    </div>
+
+</footer>
+
+<a href="cart.html" class="floating-cart" id="floatingCart">
+    🛒
+    <span id="cartCount">0</span>
+</a>
+
+<script src="js/auth.js"></script>
+<script src="js/customcake.js"></script>
+</body>
+</html>

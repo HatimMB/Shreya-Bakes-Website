@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Shreya Bakes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<section class="section">
+
+    <div class="container" style="max-width:1000px;">
+
+        <div class="auth-wrapper">
+
+            
+            <div class="auth-info">
+
+                <h2 id="authInfoTitle">Welcome Back</h2>
+
+                <p id="authInfoText">
+                    Log in to access your saved details, rewards, wishlist, and order history.
+                </p>
+
+                <ul>
+                    <li>✔ Fast checkout</li>
+                    <li>✔ Order tracking</li>
+                    <li>✔ Saved favourites</li>
+                </ul>
+
+            </div>
+
+            
+            <div class="auth-box">
+
+                <div class="auth-tabs">
+
+                    <button class="tab active" onclick="switchTab('login')">Login</button>
+                    <button class="tab" onclick="switchTab('signup')">Sign Up</button>
+
+                </div>
+
+                
+                <form id="loginForm" class="auth-form">
+
+                    <input type="email" id="loginEmail" placeholder="Email (e.g. name@gmail.com)" required>
+
+                    <input type="password" id="loginPassword" placeholder="Password (e.g. shreya123)" required>
+
+                    <button type="submit" class="btn-primary">
+                        Login
+                    </button>
+
+                    <p id="loginMsg"></p>
+
+                </form>
+
+                
+                <form id="signupForm" class="auth-form hidden">
+
+                    <input type="text" id="signupName" placeholder="Full Name (e.g. Shreya Issani)" required>
+
+                    <input type="email" id="signupEmail" placeholder="Email (e.g. name@gmail.com)" required>
+                    <p id="signupEmailError" class="field-error"></p>
+
+                    <input type="password" id="signupPassword" placeholder="Password (e.g. shreya123)" required>
+
+                    <input type="text" id="signupPhone" placeholder="Phone Number (e.g. 05XXXXXXXX)" value="05" maxlength="10" required>
+                    <p id="signupPhoneError" class="field-error"></p>
+
+                    <textarea id="signupAddress" placeholder="Delivery Address (e.g. Building, Street, Area)" rows="3" required></textarea>
+
+                    <select id="signupCity" required>
+                        <option value="">Select City</option>
+                        <option>Abu Dhabi</option>
+                        <option>Dubai</option>
+                        <option>Sharjah</option>
+                        <option>Ras Al Khaimah</option>
+                        <option>Fujairah</option>
+                        <option>Umm Al Quwain</option>
+                    </select>
+
+                    <button type="submit" class="btn-primary">
+                        Create Account
+                    </button>
+
+                    <p id="signupMsg"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle; margin-bottom:10px;">
+
+            <p>Handcrafted desserts made fresh in Dubai with premium ingredients.</p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="trackOrder.html">Track Order</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://www.instagram.com/shreyabakes_x/" target="_blank">Instagram</a><br>
+            </p>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/login.js"></script>
+
+</body>
+</html>

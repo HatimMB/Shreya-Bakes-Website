@@ -1,0 +1,44 @@
+[
+  {
+    "id": "REV-1782923942774",
+    "name": "Who",
+    "rating": 5,
+    "review": "Whaaat!"
+  },
+  {
+    "name": "Alisha",
+    "rating": 4,
+    "review": "Pricing is very reasonable for the quality you get. The cake looked premium but didn’t feel overpriced at all.",
+    "id": "REV-2-423946"
+  },
+  {
+    "name": "Aaron S",
+    "rating": 5,
+    "review": "Really enjoyed the cookie cake. It was chewy, flavorful, and arrived fresh. Would definitely order again.",
+    "id": "REV-3-315042"
+  },
+  {
+    "name": "Emma Watson",
+    "rating": 5,
+    "review": "The chocolate cake was incredibly rich and soft. Tasted freshly baked and not overly sweet, a perfect balance.",
+    "id": "REV-4-983445"
+  },
+  {
+    "name": "Shreya Issani",
+    "rating": 5,
+    "review": "AMAZING CAKESS FAHHH",
+    "id": "REV-5-711998"
+  },
+  {
+    "name": "Tom Holland",
+    "rating": 1,
+    "review": "The red velvet cake was a showstopper! Beautifully decorated and tasted divine. Will order again for sure.",
+    "id": "REV-6-647231"
+  },
+  {
+    "name": "Sanjeev Kapoor",
+    "rating": 4,
+    "review": "Loved the cookie cake! It was soft, chewy, and had the perfect amount of chocolate chips. Highly recommend.",
+    "id": "REV-7-869745"
+  }
+]

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Shreya Bakes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-container">
+
+        <span>⏰ Freshly Baked Daily</span>
+        <span>📍 Dubai & UAE Delivery</span>
+
+        <span><a href="wishlist.html">♡ Wishlist</a></span>
+        <span><a href="cart.html">🛒 Your Cart</a></span>
+        <span><a href="#" onclick="goToAccount(); return false;">👤 Account</a></span>
+
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<section class="hero" style="height:55vh; background:url('images/slice.jpg') center/cover no-repeat;">
+    <div class="hero-content">
+        <h1 style="font-size: 80px;">Let’s Talk</h1>
+        <p style="font-size: 35px;">Custom cakes, orders, or anything sweet - we’re here to help</p>
+    </div>
+</section>
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>We usually respond within a few hours</p>
+        </div>
+
+        <div class="contact-layout">
+
+            <div class="contact-form">
+
+                <h3>Send us a Message</h3>
+
+                <br>
+
+                <form id="contactForm">
+
+                    <input type="text" id="contactName" placeholder="Full Name" required>
+
+                    <input type="email" id="contactEmail" placeholder="Email Address" required>
+
+
+                    <textarea id="message" placeholder="How can we help you?" rows="10" required></textarea>
+
+                    <button type="submit" class="btn-primary">
+                        Send Message
+                    </button>
+
+                </form>
+
+                <br>
+                
+                <p id="successMessage" style="display:none;color:green;">
+                    Thanks. We’ve received your message and will get back to you soon.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="contact-info">
+
+                <div class="contact-card">
+                    <h3>Get In Touch</h3>
+                    <br>
+                    <p>
+                        Whether it’s a birthday, wedding, corporate event,
+                        or a last-minute craving, we’ve got you covered.
+                    </p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Contact Information</h3>
+                    <br>
+                    <p><strong>Mobile:</strong> +971 50 539 7477</p>
+                    <p><strong>Telephone:</strong> +971 4 295 7842</p>
+                    <p><strong>Email:</strong> info@shreyabakes.ae</p>
+                    <p><strong>Location:</strong> Dubai, UAE</p>
+                </div>
+
+                <div class="contact-card">
+                    <h3>Business Hours</h3>
+                    <br>
+                    <p>Mon – Thur: 8:00 AM – 10:00 PM</p>
+                    <p>Fri – Sun: 9:00 AM – 11:00 PM</p>
+                </div>
+
+            </div>
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <div>
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle; margin-bottom:10px;">
+
+            <p>Handcrafted desserts made fresh in Dubai with premium ingredients.</p>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="menu.html">Menu</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Company</h3>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="trackOrder.html">Track Order</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Follow Us</h3>
+            <p>
+                <a href="https://www.instagram.com/shreyabakes_x/" target="_blank">Instagram</a><br>
+            </p>
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/auth.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>

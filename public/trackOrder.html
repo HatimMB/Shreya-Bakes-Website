@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order | Shreya Bakes</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-container">
+
+        <span>⏰ Freshly Baked Daily</span>
+        <span>📍 Dubai & UAE Delivery</span>
+
+        <span><a href="wishlist.html">♡ Wishlist</a></span>
+        <span><a href="cart.html">🛒 Your Cart</a></span>
+        <span><a href="#" onclick="goToAccount(); return false;">👤 Account</a></span>
+
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="customcake.html">Custom Cake</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="trackOrder.html">Track Order</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<section class="section">
+
+<div class="container">
+
+    <div class="section-title">
+        <h2>Track Your Order</h2>
+        <p>Enter your order ID to see live status updates</p>
+    </div>
+
+    <div class="contact-card" style="max-width:600px;margin:auto;">
+
+        <input type="text" id="orderId" placeholder="Enter Order ID" style="width:100%;">
+
+        <br><br>
+
+        <button onclick="trackOrder()" class="btn-primary">
+            Track Order
+        </button>
+
+        <div id="result" style="margin-top:20px;"></div>
+
+    </div>
+
+</div>
+
+</section>
+
+<script src="js/auth.js"></script>
+<script src="js/trackOrder.js"></script>
+</body>
+</html>

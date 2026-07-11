@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders | Shreya Bakes Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+<body class="admin-body">
+<div class="top-bar">
+    <div class="top-bar-container">
+        <span>Admin Panel</span>
+        <span><a href="home.html">Customer Website</a></span>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="Shreya Bakes logo">
+            <span>Shreya Bakes Admin</span>
+        </div>
+        <ul>
+            <li><a href="admin.html">Dashboard</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="admin-reviews.html">Reviews</a></li>
+            <li><a href="messages.html">Messages</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="section hidden" id="adminDashboard">
+    <div class="container">
+        <div class="admin-header">
+            <div>
+                <span class="eyebrow">Orders</span>
+                <h1>Customer Orders</h1>
+                <p>Delivered orders are hidden from the active list, but you can switch to all orders anytime.</p>
+            </div>
+            <div class="inline-actions">
+                <button class="btn-primary" onclick="loadOrders()">Refresh</button>
+            </div>
+        </div>
+
+        <div class="admin-filter-bar">
+            <button class="category-btn active" data-filter="Active" onclick="setOrderFilter('Active')">Active</button>
+            <button class="category-btn" data-filter="All" onclick="setOrderFilter('All')">All</button>
+            <button class="category-btn" data-filter="Delivered" onclick="setOrderFilter('Delivered')">Delivered</button>
+        </div>
+
+        <div class="admin-panel">
+            <div id="adminOrdersList" class="admin-orders-list"></div>
+        </div>
+    </div>
+</section>
+
+<div id="toast" class="toast"></div>
+<script src="js/auth.js"></script>
+<script src="js/orders.js"></script>
+</body>
+</html>

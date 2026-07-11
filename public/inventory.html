@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory | Shreya Bakes Admin</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+<body class="admin-body">
+<div class="top-bar">
+    <div class="top-bar-container">
+        <span>Admin Panel</span>
+        <span><a href="home.html">Customer Website</a></span>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="Shreya Bakes logo">
+            <span>Shreya Bakes Admin</span>
+        </div>
+        <ul>
+            <li><a href="admin.html">Dashboard</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="admin-reviews.html">Reviews</a></li>
+            <li><a href="messages.html">Messages</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="section hidden" id="adminDashboard">
+    <div class="container">
+        <div class="admin-header">
+            <div>
+                <span class="eyebrow">Inventory</span>
+                <h1>Products</h1>
+                <p>Add new items, update prices, and manage images shown on the menu page.</p>
+            </div>
+            <div class="inline-actions">
+                <button class="btn-primary" onclick="clearForm()">Clear Form</button>
+            </div>
+        </div>
+
+        <div class="admin-panel admin-inventory-layout">
+            <form id="productForm" class="admin-product-form">
+                <input type="hidden" id="productId">
+                <label>Image</label>
+                <input type="file" id="productImage" accept="image/*">
+                <img id="productPreview" class="admin-product-preview hidden" alt="Product preview">
+                <label>Name</label>
+                <input id="productName" required>
+                <label>Category</label>
+                <select id="productCategory" required>
+                    <option value="">Select</option>
+                    <option>Cake</option>
+                    <option>Cookies</option>
+                    <option>Brownie</option>
+                    <option>Combo</option>
+                </select>
+                <label>Price</label>
+                <input type="number" id="productPrice" required>
+                <label>Description</label>
+                <textarea id="productDescription" rows="4"></textarea>
+                <button class="btn-primary" id="productSubmitBtn">Add Product</button>
+            </form>
+            <div id="adminProductsList" class="admin-products-list"></div>
+        </div>
+    </div>
+</section>
+
+<div id="toast" class="toast"></div>
+<script src="js/auth.js"></script>
+<script src="js/inventory.js"></script>
+</body>
+</html>

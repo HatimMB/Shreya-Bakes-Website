@@ -1,0 +1,341 @@
+[
+  {
+    "orderId": "SB1781855470485",
+    "name": "Aaron Samuel",
+    "email": "aaronsamuelofficial7@gmail.com",
+    "phone": "0552513963",
+    "address": "al falah street",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Cookie Cake",
+        "price": 90,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "90.00",
+    "vat": "4.50",
+    "delivery": "15.00",
+    "total": "109.50",
+    "status": "Preparing",
+    "createdAt": "2026-06-19T07:51:10.486Z",
+    "serverTime": "2026-06-19T07:51:10.544Z"
+  },
+  {
+    "orderId": "SB1782369120114",
+    "name": "Aaron Samuel",
+    "email": "aaronsamuelofficial7@gmail.com",
+    "phone": "0552513963",
+    "address": "sd",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Red Velvet Cake",
+        "price": 90,
+        "quantity": 2
+      },
+      {
+        "productId": 1782368686651,
+        "name": "Chocolate Cake Custom Cake",
+        "price": 67,
+        "quantity": 1
+      },
+      {
+        "productId": 3,
+        "name": "Cookie Cake",
+        "price": 95,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "342.00",
+    "vat": "17.10",
+    "delivery": "15.00",
+    "total": "374.10",
+    "status": "Out for Delivery",
+    "createdAt": "2026-06-25T06:32:00.115Z",
+    "serverTime": "2026-06-25T06:32:00.150Z"
+  },
+  {
+    "orderId": "SB1781594267040",
+    "name": "prakash issani",
+    "email": "ishreya196@gmail.com",
+    "phone": "0563955607",
+    "address": "flat no 1201 DLH SWAN LAKE SAHAKAR NAGAR ANDHERI WEST",
+    "payment": "Cash On Delivery",
+    "notes": "i need candles",
+    "items": [
+      {
+        "productId": 3,
+        "name": "Cookie Cake",
+        "price": 90,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "90.00",
+    "vat": "4.50",
+    "delivery": "15.00",
+    "total": "109.50",
+    "status": "Delivered",
+    "createdAt": "2026-06-16T07:17:47.040Z",
+    "serverTime": "2026-06-16T07:17:47.101Z",
+    "statusUpdatedAt": "2026-06-27T07:05:06.133Z"
+  },
+  {
+    "orderId": "SB1781850941448",
+    "name": "shreya",
+    "email": "lalwani@gmail.com",
+    "phone": "0563955607",
+    "address": "no",
+    "payment": "Card On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Red Velvet Cake",
+        "price": 140,
+        "quantity": 1
+      },
+      {
+        "productId": 24,
+        "name": "Lotus Biscoff Cookie",
+        "price": 12,
+        "quantity": 1
+      },
+      {
+        "productId": 1,
+        "name": "Chocolate Cake",
+        "price": 120,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "272.00",
+    "vat": "13.60",
+    "delivery": "15.00",
+    "total": "300.60",
+    "status": "Delivered",
+    "createdAt": "2026-06-19T06:35:41.449Z",
+    "serverTime": "2026-06-19T06:35:41.456Z",
+    "statusUpdatedAt": "2026-06-27T07:05:08.666Z"
+  },
+  {
+    "orderId": "SB1782246959854",
+    "name": "rolin",
+    "email": "rolin@gmail.com",
+    "phone": "0563955607",
+    "address": "rigga",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Red Velvet Cake",
+        "price": 140,
+        "quantity": 2
+      },
+      {
+        "productId": 3,
+        "name": "Cookie Cake",
+        "price": 90,
+        "quantity": 2
+      }
+    ],
+    "subtotal": "460.00",
+    "vat": "23.00",
+    "delivery": "15.00",
+    "total": "498.00",
+    "status": "Preparing",
+    "createdAt": "2026-06-23T20:35:59.854Z",
+    "serverTime": "2026-06-23T20:35:59.865Z"
+  },
+  {
+    "orderId": "SB1782299260928",
+    "name": "vanshika",
+    "email": "ishreya196@gmail.com",
+    "phone": "0675844506",
+    "address": "bur dubai , meena bazar",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 1,
+        "name": "Chocolate Cake",
+        "price": 120,
+        "quantity": 1
+      },
+      {
+        "productId": 3,
+        "name": "Cookie Cake",
+        "price": 90,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "210.00",
+    "vat": "10.50",
+    "delivery": "15.00",
+    "total": "235.50",
+    "status": "Placed",
+    "createdAt": "2026-06-24T11:07:40.929Z",
+    "serverTime": "2026-06-24T11:07:40.959Z"
+  },
+  {
+    "orderId": "SB1782362353205",
+    "name": "rolin biju fahh",
+    "email": "rolin@gmail.com",
+    "phone": "0563955608",
+    "address": "burdubai , metro",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 23,
+        "name": "Dubai Chocolate Cookie",
+        "price": 12,
+        "quantity": 1
+      },
+      {
+        "productId": 24,
+        "name": "Lotus Biscoff Cookie",
+        "price": 12,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "24.00",
+    "vat": "1.20",
+    "delivery": "15.00",
+    "total": "40.20",
+    "status": "Placed",
+    "createdAt": "2026-06-25T04:39:13.205Z",
+    "serverTime": "2026-06-25T04:39:13.253Z"
+  },
+  {
+    "orderId": "SB1782362410006",
+    "name": "rolin biju",
+    "email": "rolin@gmail.com",
+    "phone": "0563955608",
+    "address": "rigga",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 23,
+        "name": "Dubai Chocolate Cookie",
+        "price": 12,
+        "quantity": 1
+      },
+      {
+        "productId": 31,
+        "name": "Oreo Brownie",
+        "price": 10,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "22.00",
+    "vat": "1.10",
+    "delivery": "15.00",
+    "total": "38.10",
+    "status": "Placed",
+    "createdAt": "2026-06-25T04:40:10.006Z",
+    "serverTime": "2026-06-25T04:40:10.015Z"
+  },
+  {
+    "orderId": "SB1782562525592",
+    "name": "Who",
+    "email": "w@g.c",
+    "phone": "97832",
+    "address": "g",
+    "city": "g",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Red Velvet Cake 500gm",
+        "price": 95,
+        "quantity": 2
+      },
+      {
+        "productId": 24,
+        "name": "Lotus Biscoff Cookie",
+        "price": 12,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "202.00",
+    "discountedSubtotal": "0.00",
+    "vat": "0.00",
+    "delivery": "15.00",
+    "pointsUsed": 1010,
+    "pointsDiscount": "202.00",
+    "pointsEarned": 40,
+    "totalBeforePoints": "227.10",
+    "total": "15.00",
+    "status": "Delivered",
+    "createdAt": "2026-06-27T12:15:25.592Z",
+    "serverTime": "2026-06-27T12:15:25.601Z",
+    "statusUpdatedAt": "2026-06-27T12:47:27.002Z"
+  },
+  {
+    "orderId": "SB1782923884162",
+    "name": "Hatim",
+    "email": "hatim@gmail.com",
+    "phone": "0554437896",
+    "address": "Where",
+    "city": "Dubai",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 2,
+        "name": "Red Velvet Cake 500gm",
+        "price": 95,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "95.00",
+    "discountedSubtotal": "83.80",
+    "vat": "4.19",
+    "delivery": "15.00",
+    "pointsUsed": 56,
+    "pointsDiscount": "11.20",
+    "pointsEarned": 19,
+    "totalBeforePoints": "114.75",
+    "total": "102.99",
+    "status": "Order Placed",
+    "createdAt": "2026-07-01T16:38:04.163Z",
+    "serverTime": "2026-07-01T16:38:04.161Z"
+  },
+  {
+    "orderId": "SB1782923916267",
+    "name": "Hatim",
+    "email": "hatim@gmail.com",
+    "phone": "0554437896",
+    "address": "Where",
+    "city": "Dubai",
+    "payment": "Cash On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 1782923909287,
+        "name": "Red Velvet Cake Custom Cake",
+        "price": 72,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "72.00",
+    "discountedSubtotal": "72.00",
+    "vat": "3.60",
+    "delivery": "15.00",
+    "pointsUsed": 0,
+    "pointsDiscount": "0.00",
+    "pointsEarned": 14,
+    "totalBeforePoints": "90.60",
+    "total": "90.60",
+    "status": "Order Placed",
+    "createdAt": "2026-07-01T16:38:36.268Z",
+    "serverTime": "2026-07-01T16:38:36.268Z"
+  }
+]

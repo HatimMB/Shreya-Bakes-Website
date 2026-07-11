@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Shreya Bakes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+<body class="admin-body">
+<div class="top-bar">
+    <div class="top-bar-container">
+        <span>Admin Panel</span>
+        <span><a href="home.html">Customer Website</a></span>
+    </div>
+</div>
+
+<nav>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="Shreya Bakes logo">
+            <span>Shreya Bakes Admin</span>
+        </div>
+        <ul>
+            <li><a href="admin.html">Dashboard</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            <li><a href="inventory.html">Inventory</a></li>
+            <li><a href="customers.html">Customers</a></li>
+            <li><a href="admin-reviews.html">Reviews</a></li>
+            <li><a href="messages.html">Messages</a></li>
+        </ul>
+    </div>
+</nav>
+
+<section class="section admin-login-section" id="adminLoginSection">
+    <div class="container slim-container">
+        <div class="auth-box admin-login-box">
+            <div class="section-title compact-title">
+                <h2>Admin Login</h2>
+                <p>Sign in to manage the bakery website.</p>
+            </div>
+            <form id="adminLoginForm" class="auth-form">
+                <input type="email" id="adminEmail" placeholder="Admin Email" required>
+                <input type="password" id="adminPassword" placeholder="Admin Password" required>
+                <button type="submit" class="btn-primary">Login as Admin</button>
+                <p id="adminLoginMsg"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="section hidden" id="adminDashboard">
+    <div class="container">
+        <div class="admin-header">
+            <div>
+                <span class="eyebrow">Control center</span>
+                <h1>Admin Dashboard</h1>
+                <p>Manage the full Shreya Bakes website from one clean dashboard.</p>
+            </div>
+            <button type="button" class="btn-secondary" onclick="adminLogout()">Logout</button>
+        </div>
+
+        <div class="admin-stats-grid">
+            <div class="admin-stat-card">
+                <span>Total Orders</span>
+                <strong id="adminTotalOrders">0</strong>
+            </div>
+            <div class="admin-stat-card">
+                <span>Active Orders</span>
+                <strong id="adminActiveOrders">0</strong>
+            </div>
+            <div class="admin-stat-card">
+                <span>Products</span>
+                <strong id="adminTotalProducts">0</strong>
+            </div>
+            <div class="admin-stat-card">
+                <span>Customers</span>
+                <strong id="adminTotalCustomers">0</strong>
+            </div>
+            <div class="admin-stat-card">
+                <span>Reviews</span>
+                <strong id="adminTotalReviews">0</strong>
+            </div>
+            <div class="admin-stat-card">
+                <span>New Messages</span>
+                <strong id="adminNewMessages">0</strong>
+            </div>
+        </div>
+
+        <div class="admin-grid">
+            <div class="admin-panel admin-feature-panel">
+                <div class="admin-panel-heading">
+                    <div>
+                        <h2>Orders</h2>
+                        <p>Update order status and view customer delivery details.</p>
+                    </div>
+                    <a class="btn-primary" href="orders.html">Open</a>
+                </div>
+                <div id="ordersPreview" class="admin-preview-list"></div>
+            </div>
+
+            <div class="admin-panel admin-feature-panel">
+                <div class="admin-panel-heading">
+                    <div>
+                        <h2>Inventory</h2>
+                        <p>Add, edit, or delete products shown on the menu.</p>
+                    </div>
+                    <a class="btn-primary" href="inventory.html">Open</a>
+                </div>
+                <div id="inventoryPreview" class="admin-preview-list"></div>
+            </div>
+
+            <div class="admin-panel admin-feature-panel">
+                <div class="admin-panel-heading">
+                    <div>
+                        <h2>Customers</h2>
+                        <p>View customer profiles, loyalty points, and order totals.</p>
+                    </div>
+                    <a class="btn-primary" href="customers.html">Open</a>
+                </div>
+                <div id="customersPreview" class="admin-preview-list"></div>
+            </div>
+
+            <div class="admin-panel admin-feature-panel">
+                <div class="admin-panel-heading">
+                    <div>
+                        <h2>Reviews & Messages</h2>
+                        <p>View customer reviews and manage contact form messages.</p>
+                    </div>
+                    <div class="inline-actions">
+                        <a class="btn-primary" href="admin-reviews.html">Reviews</a>
+                        <a class="btn-secondary" href="messages.html">Messages</a>
+                    </div>
+                </div>
+                <div id="messagesPreview" class="admin-preview-list"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="toast" class="toast"></div>
+<script src="js/auth.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

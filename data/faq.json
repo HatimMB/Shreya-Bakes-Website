@@ -1,0 +1,34 @@
+[
+  {
+    "question": "What are your opening hours?",
+    "answer": "We are open: Mon – Thur: 8:00 AM – 10:00 PM | Fri – Sun: 9:00 AM – 11:00 PM"
+  },
+  {
+    "question": "Do you take custom cake orders?",
+    "answer": "Yes, we specialize in custom cakes for all occasions."
+  },
+  {
+    "question": "How far in advance should I place an order?",
+    "answer": "We recommend placing orders at least 48 hours in advance."
+  },
+  {
+    "question": "Do you have eggless cake options?",
+    "answer": "Yes, we offer a wide range of eggless cakes."
+  },
+  {
+    "question": "Do you offer vegan or dairy-free products?",
+    "answer": "Yes, we have selected vegan-friendly options available."
+  },
+  {
+    "question": "Can I cancel or change my order after placing it?",
+    "answer": "Yes, but changes must be made at least 24 hours before pickup or delivery."
+  },
+  {
+    "question": "Do you accept online payments?",
+    "answer": "Yes, we accept all major online payment methods."
+  },
+  {
+    "question": "Do you cater for weddings and large events?",
+    "answer": "Yes, we provide full catering for weddings and events."
+  }
+]

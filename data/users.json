@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1782246868736,
+    "name": "rolin biju",
+    "email": "rolin@gmail.com",
+    "password": "rolin123",
+    "address": "rigga",
+    "city": "dubai",
+    "phone": "0563955608",
+    "loyaltyPoints": 0
+  },
+  {
+    "id": 1782541678938,
+    "name": "Who",
+    "email": "w@g.c",
+    "password": "1",
+    "phone": "97832",
+    "address": "g",
+    "city": "g",
+    "loyaltyPoints": 1830
+  },
+  {
+    "id": 1782969362416,
+    "name": "shrey",
+    "email": "ishs@gmail.com",
+    "password": "2948",
+    "phone": "0506747923",
+    "address": "dubai",
+    "city": "Dubai",
+    "loyaltyPoints": 0
+  }
+]

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout | Shreya Bakes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="images/sb_logo.png">
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+
+        <div class="logo">
+            <img src="images/sb_logo.png" alt="logo" style="height:60px; vertical-align:middle;">
+            <span style="margin-left:8px;">
+                <a class="logo" href="home.html" style="text-decoration:none;color:inherit;">
+                    Shreya Bakes
+                </a>
+            </span>
+        </div>
+
+    </div>
+</nav>
+
+<section class="section">
+<div class="container">
+
+    <div class="section-title">
+        <h2>Checkout</h2>
+        <p>Complete your order securely</p>
+    </div>
+
+    <div class="checkout-layout">
+
+        <div>
+
+            <form id="checkoutForm">
+
+                <h3>Customer Information</h3>
+                <br>
+
+                <p class="checkout-note">Your saved account details will appear here automatically. You can edit them before placing the order.</p>
+
+                <input type="text" id="name" placeholder="Full Name (e.g. Shreya Issani)" required>
+                <input type="email" id="email" placeholder="Email Address (e.g. name@gmail.com)" required>
+                <input type="text" id="phone" placeholder="Phone Number (e.g. 05XXXXXXXX)" required>
+
+                <br>
+
+                <h3>Delivery Address</h3>
+                <br>
+
+                <textarea id="address" placeholder="Delivery Address (e.g. Building, Street, Area)" rows="4" required></textarea>
+                <input type="text" id="city" placeholder="City (e.g. Dubai)" required>
+
+                <br>
+
+                <h3>Payment Method</h3>
+                <br>
+
+                <select id="payment">
+                    <option>Cash On Delivery</option>
+                    <option>Card On Delivery</option>
+                </select>
+
+                <br>
+
+                <h3>Additional Notes</h3>
+                <br>
+
+                <textarea id="notes" placeholder="Special Instructions (optional, e.g. leave at reception)"></textarea>
+
+                <br>
+
+                <button type="submit" class="btn-primary">
+                    Place Order
+                </button>
+
+            </form>
+
+        </div>
+
+        <div>
+
+            <div class="order-summary">
+
+                <h3>Order Summary</h3>
+
+                <br>
+
+                <div id="checkoutItems"></div>
+
+                <br>
+
+                <div id="loyaltyRedeemBox" class="loyalty-redeem-box" style="display:none;">
+                    <label for="pointsToUse">Use loyalty points</label>
+
+                    <div class="points-input-row">
+                        <input type="number" id="pointsToUse" min="0" step="1" placeholder="Enter points to use">
+                        <button type="button" id="applyPointsBtn" class="btn-primary">Apply</button>
+                    </div>
+
+                    <small>You have <span id="availablePoints">0</span> points.</small>
+                    <small id="pointsHelper">Enter how many points you want to use for this order.</small>
+                </div>
+
+                <br>
+
+                <div style="display:flex;justify-content:space-between;">
+                    <span>VAT</span>
+                    <span id="vatTotal">AED 0</span>
+                </div>
+
+                <br>
+
+                <div style="display:flex;justify-content:space-between;">
+                    <span>Items Total</span>
+                    <span id="orderTotal">AED 0</span>
+                </div>
+
+                <br>
+
+                <div style="display:flex;justify-content:space-between;">
+                    <span>Delivery Fee</span>
+                    <span id="deliveryTotal">AED 15.00</span>
+                </div>
+
+                <br>
+
+                <div style="display:flex;justify-content:space-between;">
+                    <span>Loyalty Discount</span>
+                    <span id="pointsDiscount">AED 0</span>
+                </div>
+
+                <hr style="margin:15px 0;border:1px solid var(--border);">
+
+                <div style="display:flex;justify-content:space-between;font-weight:600;">
+                    <span>Grand Total</span>
+                    <span id="grandTotal">AED 0</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<script src="js/auth.js"></script>
+<script src="js/checkout.js"></script>
+
+</body>
+</html>

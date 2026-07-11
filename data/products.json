@@ -1,0 +1,122 @@
+[
+  {
+    "id": 2,
+    "name": "Red Velvet Cake 500gm",
+    "category": "Cake",
+    "price": 95,
+    "image": "images/redvelvetcake.jpg",
+    "description": "This visually striking, melt-in-your-mouth red velvet cake features layers of vibrant crimson sponge with a delicate hint of cocoa and a subtle tang from real buttermilk. Generously frosted with our signature silky cream cheese icing, it is a modern, velvety masterpiece perfect for any celebration."
+  },
+  {
+    "id": 3,
+    "name": "Cookie Cake 750gm",
+    "category": "Cake",
+    "price": 105,
+    "image": "images/cookiecake.jpeg",
+    "description": "Elevate your celebration with a thick, decadent cookie cake. Baked fresh using premium browned butter and loaded with rich, velvety chocolate chips, it offers a perfectly gooey center with crisp, chewy edges."
+  },
+  {
+    "id": 21,
+    "name": "Nutella Cookie",
+    "category": "Cookies",
+    "price": 14,
+    "image": "images/nutellacookie.jpeg",
+    "description": "A thick, gourmet cookie boasting golden, crisp edges and a soft, fudgy center. This indulgent treat is loaded with premium semi-sweet chocolate chunks and stuffed with a molten, gooey Nutella core."
+  },
+  {
+    "id": 22,
+    "name": "ChocoChip Cookie",
+    "category": "Cookies",
+    "price": 12,
+    "image": "images/chocochipcookie.jpeg",
+    "description": "A thick, hearty cookie with a golden-caramelized exterior and a soft, molten center. Baked with cultured butter and loaded with hand-chopped dark and milk chocolate chunks, finished with a delicate sprinkle of flaky sea salt for the perfect sweet-to-salty balance."
+  },
+  {
+    "id": 23,
+    "name": "Dubai Chocolate Cookie",
+    "category": "Cookies",
+    "price": 15,
+    "image": "images/dubaichocolatecookie.jpeg",
+    "description": "Experience a viral sensation with our artisanal Dubai Chocolate Cookie. This thick, fudgy cocoa cookie hides a rich core of velvety pistachio cream and toasted, crispy kataifi. Every bite delivers the perfect harmony of snap, crunch, and melt-in-your-mouth indulgence."
+  },
+  {
+    "id": 24,
+    "name": "Lotus Biscoff Cookie",
+    "category": "Cookies",
+    "price": 12,
+    "image": "images/lotusbiscoffcookie.jpeg",
+    "description": "This thick, artisanal cookie features crisp, golden edges yielding to a soft, molten center. Brimming with rich, caramelized notes and a warm hint of cinnamon, it is generously packed with creamy Biscoff butter and premium white chocolate chips."
+  },
+  {
+    "id": 25,
+    "name": "M&M Galaxy Cookie",
+    "category": "Cookies",
+    "price": 12,
+    "image": "images/mmcookie.jpeg",
+    "description": "An indulgent treat featuring a gooey, brown-sugar cookie base, deeply marbled with rich cocoa swirls. Generously stuffed with premium, melt-in-your-mouth milk chocolate chunks and vibrant, candy-coated M&M's, it offers a visually stunning \"space-like\" aesthetic and the ultimate combination of soft, chewy, and crunchy textures."
+  },
+  {
+    "id": 26,
+    "name": "Red Velvet Cookie",
+    "category": "Cookies",
+    "price": 14,
+    "image": "images/redvelvetcookie.jpeg",
+    "description": "Indulge in our signature Red Velvet Cookie, delivering the classic rich cocoa flavor of traditional red velvet cake in a decadent, bakery-fresh treat. Baked to achieve a perfectly crisp edge and a melt-in-your-mouth, fudgy center."
+  },
+  {
+    "id": 30,
+    "name": "Lotus Biscoff Brownie",
+    "category": "Brownie",
+    "price": 10,
+    "image": "images/lotusbiscoffbrownie.jpeg",
+    "description": "Our Lotus Biscoff Brownie is a decadently rich, fudgy chocolate treat swirled with creamy cookie butter and loaded with crunchy caramelized biscuits. It perfectly balances deep cocoa with warm cinnamon and spice."
+  },
+  {
+    "id": 31,
+    "name": "Oreo Brownie",
+    "category": "Brownie",
+    "price": 12,
+    "image": "images/oreobrownie.jpeg",
+    "description": "An elevated twist on a classic, this Oreo Brownie features a dense, fudgy center and a delicate, crackly top. Made with premium dark cocoa and studded with Double-Stuf Oreos, every bite delivers the perfect balance of rich, velvety chocolate and a satisfying, cookies-and-cream crunch."
+  },
+  {
+    "id": 32,
+    "name": "Pistachio Brownie",
+    "category": "Brownie",
+    "price": 14,
+    "image": "images/pistachiobrownie.jpeg",
+    "description": "These irresistible Pistachio Brownies feature a dense, fudgy dark chocolate base layered with a crunchy, nutty pistachio cream and toasted kataifi filling."
+  },
+  {
+    "id": 33,
+    "name": "Strawberry Brownie",
+    "category": "Brownie",
+    "price": 10,
+    "image": "images/strawberrybrownie.jpeg",
+    "description": "A decadent twist on a classic, our Strawberry Brownie features a rich, fudgy chocolate base swirled with a vibrant, made-from-scratch strawberry compote. Baked to achieve the perfect crackly crust and a chewy, gooey center."
+  },
+  {
+    "id": 34,
+    "name": "White Chocolate Brownie",
+    "category": "Brownie",
+    "price": 10,
+    "image": "images/whitechocolatebrownie.jpeg",
+    "description": "This Decadent White Chocolate Brownie features a crinkly, paper-thin top, a velvety-soft center, and a rich, buttery custard flavor. Baked with melted premium white chocolate and studded with creamy chocolate bits."
+  },
+  {
+    "id": 40,
+    "name": "Birthday Brownie Box of 9",
+    "category": "Combo",
+    "price": 90,
+    "image": "images/hb_brownie.jpeg",
+    "description": "Elevate your birthday celebrations with our Birthday Brownie Box of 9, a decadent assortment of 9 rich, fudgy brownies. Featuring an irresistible mix of classic, Nutella-swirled, and Pistachio flavors, this gourmet treat comes beautifully packaged with a festive birthday topper and a handwritten card."
+  },
+  {
+    "id": 41,
+    "name": "Cookie Box of 4",
+    "category": "Combo",
+    "price": 45,
+    "image": "images/cookiebox.jpeg",
+    "description": "Treat yourself or someone special to the ultimate cookie experience. Handcrafted with premium French butter and ethically sourced cocoa, this box of 4 lets you mix and match our signature, bakery-fresh flavors."
+  }
+]
