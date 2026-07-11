@@ -334,8 +334,52 @@
     "pointsEarned": 14,
     "totalBeforePoints": "90.60",
     "total": "90.60",
-    "status": "Order Placed",
+    "status": "Baking",
     "createdAt": "2026-07-01T16:38:36.268Z",
-    "serverTime": "2026-07-01T16:38:36.268Z"
+    "serverTime": "2026-07-01T16:38:36.268Z",
+    "statusUpdatedAt": "2026-07-11T11:41:04.017Z"
+  },
+  {
+    "orderId": "SB1783769934764",
+    "name": "Shreya",
+    "email": "shreya@gmail.com",
+    "phone": "0565789834",
+    "address": "b",
+    "city": "Fujaira",
+    "payment": "Card On Delivery",
+    "notes": "",
+    "items": [
+      {
+        "productId": 22,
+        "name": "ChocoChip Cookie",
+        "price": 12,
+        "quantity": 1
+      },
+      {
+        "productId": 31,
+        "name": "Oreo Brownie",
+        "price": 12,
+        "quantity": 1
+      },
+      {
+        "productId": 40,
+        "name": "Birthday Brownie Box of 9",
+        "price": 90,
+        "quantity": 1
+      }
+    ],
+    "subtotal": "114.00",
+    "discountedSubtotal": "114.00",
+    "vat": "5.70",
+    "delivery": "15.00",
+    "pointsUsed": 0,
+    "pointsDiscount": "0.00",
+    "pointsEarned": 22,
+    "totalBeforePoints": "134.70",
+    "total": "134.70",
+    "status": "Preparing",
+    "createdAt": "2026-07-11T11:38:54.764Z",
+    "serverTime": "2026-07-11T11:38:54.785Z",
+    "statusUpdatedAt": "2026-07-11T11:41:01.670Z"
   }
 ]

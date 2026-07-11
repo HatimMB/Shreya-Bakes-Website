@@ -1,14 +1,1 @@
-[
-  {
-    "productId": 2,
-    "name": "Red Velvet Cake 500gm",
-    "price": 95,
-    "quantity": 2
-  },
-  {
-    "productId": 3,
-    "name": "Cookie Cake 750gm",
-    "price": 105,
-    "quantity": 1
-  }
-]
+[]

@@ -28,5 +28,15 @@
     "address": "dubai",
     "city": "Dubai",
     "loyaltyPoints": 0
+  },
+  {
+    "id": 1783769835869,
+    "name": "Shreya",
+    "email": "ab12@g.com",
+    "password": "1234",
+    "phone": "0565789834",
+    "address": "b",
+    "city": "Fujaira",
+    "loyaltyPoints": 22
   }
 ]
