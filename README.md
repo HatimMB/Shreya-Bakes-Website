@@ -86,6 +86,8 @@ Shreya-Bakes/
 │   │
 │   └── HTML pages
 │
+├── screenshots/
+│   └── Website screenshots
 ├── server.js
 ├── package.json
 ├── package-lock.json
@@ -118,7 +120,7 @@ npm install
 ### 4. Start the server
 
 ```bash
-node server.js
+npm start
 ```
 
 ### 5. Open the website
